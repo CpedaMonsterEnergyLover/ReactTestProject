@@ -15,7 +15,7 @@ function ContactForm(props) {
         } else{
             setValidated(true);
             props.hide();
-            props.showTY();
+            props.showty();
             event.preventDefault();
             event.stopPropagation();
         }
@@ -28,14 +28,14 @@ function ContactForm(props) {
                 <Form.Label>Ваши фамилия и имя</Form.Label>
                 <Form.Control type="text"
                               placeholder="Введите ваше имя"
-                              maxlength='200'
+                              maxLength='200'
                               required/>
             </Form.Group>
             <Form.Group className="mb-3" controlId="contactForm.emailInput">
                 <Form.Label>Электронная почта</Form.Label>
                 <Form.Control type="email"
                               placeholder="primer@itmo.ru"
-                              maxlength='200'
+                              maxLength='200'
                               required/>
             </Form.Group>
             <Form.Group className="mb-3" controlId="contactForm.commentInput">
@@ -43,14 +43,13 @@ function ContactForm(props) {
                 <Form.Control as="textarea"
                               placeholder="Введите ваше сообщение"
                               style={{height: '110px', resize: 'none'}}
-                              maxlength='200'
+                              maxLength='200'
                               required/>
             </Form.Group>
             <div className='form-label'>
                 Отправляя данную форму, вы даете согласие на обработку своих Персональных данных
             </div>
             <div className='d-flex flex-column'>
-                {/*onClick={props.hide} */}
                 <button type='submit'  className='contact-btn mx-auto my-3'>
                     <CustomButton label='Отправить' />
                 </button>

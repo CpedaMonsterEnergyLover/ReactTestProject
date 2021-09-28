@@ -41,7 +41,7 @@ function ContactBlock() {
             <ContactModal
                 show={modalShow}
                 onHide={() => setModalShow(false)}
-                showTY={()=> contactFormValid}
+                showty={()=> contactFormValid}
             />
             <ThankYouModal
                 show={tyShow}
