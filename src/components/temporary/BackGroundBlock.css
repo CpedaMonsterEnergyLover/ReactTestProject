@@ -1,0 +1,28 @@
+.bg{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.bg-base{
+    position: relative;
+}
+.bg-second{
+    position: absolute;
+    top: 0;
+    background: rgba(249, 148, 32, 0.15);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+.bg-second-content{
+    max-width: 400px;
+    border-radius: 8px;
+}
+.contact-btn{
+    background: #F21F5B;
+    border-radius: 50px;
+    border: none;
+    width: 186px;
+}

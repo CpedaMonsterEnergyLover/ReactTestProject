@@ -1,0 +1,23 @@
+.footer-color{
+    background: #232473;
+}
+.links-white {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.85);
+}
+.links-grey {
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+}
+.deep-footer-color{
+    background: #1A1B57;
+}
+
+
+

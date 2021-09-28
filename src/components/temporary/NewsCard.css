@@ -1,0 +1,34 @@
+.card{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+}
+.card-img-top {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card-body{
+    width: 100%;
+    height: 50%;
+}
+._card-title{
+    font-family: Open Sans, monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.0002px;
+    text-transform: uppercase;
+    color: #6A6A6A;
+}
+._card-text{
+    font-family: Open Sans, monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+}

@@ -1,0 +1,34 @@
+.toggle-d{
+    border: 2px solid #EAEFFC;
+    box-sizing: border-box;
+    border-radius: 8px;
+    max-width: 592px;
+    width: 100%;
+    height: 72px;
+    background: white;
+    margin-right: auto;
+    margin-left: auto;
+}
+.content-d{
+    width: 100%;
+    max-width: 592px;
+    background: white;
+    border: 2px solid #EAEFFC;
+    box-sizing: border-box;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.toggle-d-opened{
+    border: 2px solid #EAEFFC;
+    box-sizing: border-box;
+    max-width: 592px;
+    width: 100%;
+    height: 72px;
+    background: white;
+    border-bottom: 2px solid white;
+    border-radius: 8px 8px 0 0;
+    margin-right: auto;
+    margin-left: auto;
+}

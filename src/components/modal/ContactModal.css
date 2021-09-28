@@ -1,0 +1,20 @@
+.modal-header{
+    border-bottom: none;
+}
+.modal-footer{
+    border-top: none;
+    height: 50px;
+}
+.contact-dialog{
+    max-width: 544px;
+}
+.form-label{
+    font-family: Open Sans, monospace;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+
+}
